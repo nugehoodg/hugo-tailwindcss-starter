@@ -1,8 +1,24 @@
 {{ define "main" }}
-<div class="mx-auto w-full max-w-full text-center">
-  <h1 class="sample text-3xl font-bold">Hugo TailwindCSS Starter</h1>
-  <p class="text-avocado-600">
-    Using the new @theme directive from TailwindCSS v4
-  </p>
+<div class="hero bg-base-200 min-h-screen px-60">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
+    <div>
+      <div class="indicator">
+       <span
+    class="-rotate-35 indicator-item indicator-start text-2xl"
+  >😁</span>
+        <h1 class="text-5xl font-bold">My name is Peter!</h1>
+      </div>
+      <p class="py-6">
+       I am a photographer for the new world magazine publishing. I have been working for about 69 years!
+      </p>
+      <a href="" class="btn btn-primary">Instagram</a>
+      <a href="" class="btn btn-primary">Twitter</a>
+      <a href="" class="btn btn-primary">Linkedin</a>
+    </div>
+  </div>
 </div>
 {{ end }}
